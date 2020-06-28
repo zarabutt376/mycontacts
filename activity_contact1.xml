@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="13dp"
+    tools:context=".Contact1">
+
+
+    <ImageView
+        android:id="@+id/image9"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/lady"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/todo" />
+
+
+    <ImageView
+        android:id="@+id/imag3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        app:srcCompat="@drawable/lady"
+        android:layout_marginTop="190dp"
+
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/texT20"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+
+        android:layout_marginTop="190dp"
+        android:layout_marginStart="60dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="@string/amna_ismail" />
+
+
+    <ImageView
+        android:id="@+id/imag5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="230dp"
+        app:srcCompat="@mipmap/call"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/text16"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="60dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="@string/_806_767_999" />
+    <TextView
+        android:id="@+id/textview43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="252dp"
+        android:layout_marginStart="60dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:text="@string/mobile"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="310dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="g+" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <ImageView
+            android:id="@+id/imag7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+
+
+            android:layout_marginTop="280dp"
+            android:layout_marginEnd="120dp"
+            app:srcCompat="@mipmap/email"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/texT22"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+
+            android:layout_marginStart="-110dp"
+            android:layout_marginTop="280dp"
+            android:text="@string/amna_ismail_gmail_com"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="305dp"
+            android:layout_marginStart="-275dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold"
+            android:text="@string/personal" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
